@@ -1,24 +1,27 @@
+/*import google font Open Sans*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+/*reset all element*/
 * {
 	padding: 0;
 	margin: 0;
 	border: 0;
 }
+/* align container left */
 .container_left{
 	display: flex;
 	flex-wrap: wrap;
 
 	justify-content: flex-start;
 }
-
+/* align container right */
 .container_right{
 	display: flex;
 	flex-wrap: wrap;
 
 	justify-content: flex-end;
 }
-
+/*align container center */
 .container_center{
 	display: flex;
 	flex-wrap: wrap;
@@ -26,6 +29,7 @@
 	justify-content: center;
 }
 
+/* text and font styling */
 .title{
     font-size:100%;
     letter-spacing:1px;
@@ -55,22 +59,30 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/*reset element*/
 .clamp{
 	padding: 0;
     margin: 0;
     border: 0;
 }
 
+/* add padding */
 .frame_sm{
     padding: 10px 10px;
 }
-
 .frame_md{
     padding: 25px 25px;
 }
-
 .frame_lg{
 	padding: 40px 40px;
+}
+
+/*float element left or right*/
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
 }
 
 /* Resize text as screen is resized */
@@ -94,6 +106,7 @@
     /*.wrap{max-width:770px;}*/
 }
 
+/*default html and body styling*/
 html, body{
     font-size: 100%;
     line-height: 1.6875;
@@ -101,13 +114,8 @@ html, body{
     background-color: lightgrey;
 }
 
-.f_left{
-	float: left;
-}
-.f_right{
-	float: right;
-}
 
+/* page specific styling */
 .cant_read{
     background-color: grey;
     color: white;
